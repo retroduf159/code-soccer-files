@@ -262,7 +262,7 @@ roster_list
 ejected(1, 0)
 ejected(0, 1)  # order matters!
 
-ejected?
+#ejected?
 
 ejected(nred=0, nyellow=1)  # keyword arguments
 
