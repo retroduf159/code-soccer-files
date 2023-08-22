@@ -5,7 +5,7 @@ from os import path
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-DATA_DIR = './data'
+DATA_DIR = '/Users/oscarmendez/02 Projects/01 Learning to Code With Python/code-soccer-files/data'
 
 pg = pd.read_csv(path.join(DATA_DIR, 'player_match.csv'))  # player-game
 games = pd.read_csv(path.join(DATA_DIR, 'matches.csv'))  # game info
